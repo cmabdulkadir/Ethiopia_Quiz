@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ethiopia Facts Quiz</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+  </head>
+  <body>
+    <div class="outer-box">
+      <div id="box1">
+        <a id="score" href="score.html">View Highscore</a>
+        <!-- <img src="https://www.ogina.org/issue4/images/Zakia_Sustenance_ogina.jpg" alt="Image of oromo oda tree with farm animals in Ethiopiia "> -->
+      </div>
+      <div id="box2">
+        <div id="timer">Time:<span id="countDown">0</span></div>
+        <div id="description">
+          <span>WELCOME TO</span>
+          <h1>How much do you know about the country?</h1>
+          <span>ETHIOPIA</span>
+          <div>
+            <p>
+              Try and answer the following Ethiopia's fact related questions
+              within the time limit. Keep in mind that incorrect answers will
+              penalize your score time by ten seconds!
+            </p>
+          </div>
+          <div id="btn">
+            <button id="startBtn">Take the quiz</button>
+          </div>
+        </div>
+        <div id="question-choice">
+            <h3 id="questionText">questions go here</h3>
+            <div id="choices">
+
+            </div>
+            <div id="status">Status</div>
+        </div>
+        <div id="score-container">
+            <h1>All done</h1>
+            <h4>Your final score is <span id="final-score">##</span></h4>
+            <form>
+                <label for="initials">Enter your initials</label><br>
+                <input type="text" name="initials" id="initialInput"><br>
+                <button id="save-button" type="button">Go to Highscore</button>
+            </form>
+        </div>
+      </div>
+    </div>
+    <script src="./Assets/Js/questions.js"></script>
+  </body>
+</html>

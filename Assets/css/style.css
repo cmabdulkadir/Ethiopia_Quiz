@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.outer-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+#box1 {
+    margin: 0px;
+    width: 60%;
+    height: 100vh;
+    background: url('https://www.ogina.org/issue4/images/Zakia_Sustenance_ogina.jpg');
+    background-size: contain;
+    border-radius: 8px;
+    padding-top: 20px;
+}
+
+#box2 {
+    width: 40%;
+    margin: 0px;
+    background-color: rgb(148,94, 92);
+    border-radius: 8px;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+span{
+    font-family: 'Londrina Outline', cursive;
+    text-align:justify;
+    font-size: 80px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    
+}
+#description{
+    padding-top: 50px;
+}
+h1{
+    color: white;
+    text-align: justify;
+    text-decoration: 3px, solid;
+    
+}
+button{
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+p{
+    color: white;
+}
+ 
+#timer{
+    font-size: 15px;
+    float: right;
+    padding-top: -100px;
+}
+
+#time{
+    font-family:none;
+    font-size: 20px;
+}
+#score{
+    color: black;
+    padding-left: 20px; 
+    /* margin-top:  20px; */
+    font-weight: bold;
+}
+
+#question-choice {
+    display: none;
+}
+
+#score-container {
+    display: none;
+}
+
+#highscoreDiv > h1{
+    color: black;
+    text-align: center;
+}
+#clear{
+    text-align: center;
+}
+#playagain{
+    text-align: center;
+}
+#countDown{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
