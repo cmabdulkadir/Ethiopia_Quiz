@@ -147,16 +147,21 @@ function loadQuestion () {
     document.querySelector('#save-button').addEventListener('click', function() {
         var score = lastScore;
         var initials = document.querySelector('#initialInput').value;
+        
 
         var scoreObject = {
             initials: initials,
             score: score
         }
 
-        var currentData = JSON.parse(localStorage.getItem('data')) || [];
+        var currentData = JSON.parse(localStorage.getItem('scoreRecords')) || [];
 
         currentData.push(scoreObject);
 
-        localStorage.setItem('data', JSON.stringify(currentData));
+        localStorage.setItem('scoreRecords', JSON.stringify(currentData));
+
+        location.href = "score.html"
+
+
     })
 
